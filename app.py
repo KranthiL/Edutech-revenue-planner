@@ -53,7 +53,7 @@ div[data-baseweb="select"] {
 # LOAD COURSE MASTER DATA
 # ---------------------------------------------------
 
-course_df = pd.read_csv("data/course_master.csv")
+course_df = pd.read_csv("temp_data/course_master.csv")
 
 courses = course_df["Course Name"].tolist()
 
